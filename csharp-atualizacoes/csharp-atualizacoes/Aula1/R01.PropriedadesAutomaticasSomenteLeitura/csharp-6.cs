@@ -17,25 +17,27 @@ namespace CSharp6.R01
             //aluno.Sobrenome = "Tannen";
             //Console.WriteLine(aluno.Nome);
             //Console.WriteLine(aluno.Sobrenome);
+
+            Console.WriteLine(aluno.ToString());
         }
     }
 
     class Aluno
     {
-        readonly string nome;
-        public string Nome { get { return nome; } }
-
-        readonly string sobrenome;
-        public string Sobrenome { get { return sobrenome; } }
-
-        readonly DateTime dataNascimento;
-        public DateTime DataNascimento { get { return dataNascimento; } }
+        public string Nome { get; private set; }
+        public string Sobrenome { get; private set; }
+        public DateTime DataNascimento { get; private set; }
 
         public Aluno(string nome, string sobrenome, DateTime dataNascimento)
         {
-            this.nome = nome;
-            this.sobrenome = sobrenome;
-            this.dataNascimento = dataNascimento;
+            Nome = nome;
+            Sobrenome = sobrenome;
+            DataNascimento = dataNascimento;
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1}", Nome, Sobrenome);
         }
     }
 }
