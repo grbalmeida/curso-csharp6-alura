@@ -38,6 +38,9 @@ namespace csharp_atualizacoes
                     case 2:
                         new CSharp6.R02.Programa().Main();
                         break;
+                    case 3:
+                        new CSharp6.R03.Programa().Main();
+                        break;
                     default:
                         break;
                 }
