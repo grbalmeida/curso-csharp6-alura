@@ -24,9 +24,9 @@ namespace CSharp6.R01
 
     class Aluno
     {
-        public string Nome { get; private set; }
-        public string Sobrenome { get; private set; }
-        public DateTime DataNascimento { get; private set; }
+        public string Nome { get; }
+        public string Sobrenome { get; }
+        public DateTime DataNascimento { get; }
 
         public Aluno(string nome, string sobrenome, DateTime dataNascimento)
         {
@@ -35,9 +35,11 @@ namespace CSharp6.R01
             DataNascimento = dataNascimento;
         }
 
-        public override string ToString()
-        {
-            return string.Format("{0} {1}", Nome, Sobrenome);
-        }
+        //public override string ToString()
+        //{
+        //    this.Nome = "novo nome";
+        //    this.Sobrenome = "novo sobrenome";
+        //    return string.Format("{0} {1}", Nome, Sobrenome);
+        //}
     }
 }
