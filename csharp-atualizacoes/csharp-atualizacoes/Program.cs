@@ -9,7 +9,8 @@ namespace csharp_atualizacoes
             string[] menus = new string[] {
                 "1. Propriedades Automáticas Somente-Leitura",
                 "2. Inicializadores De Propriedade Automática",
-                "3. Membros Com Corpo De Expressão"
+                "3. Membros Com Corpo De Expressão",
+                "4. Using Static"
             };
 
             Console.WriteLine("ÍNDICE DE PROGRAMAS");
@@ -40,6 +41,9 @@ namespace csharp_atualizacoes
                         break;
                     case 3:
                         new CSharp6.R03.Programa().Main();
+                        break;
+                    case 4:
+                        new CSharp6.R04.Programa().Main();
                         break;
                     default:
                         break;
