@@ -16,7 +16,8 @@ namespace csharp_atualizacoes
                 "7. Expressões nameOf",
                 "8. Filtros de Exceção",
                 "9. Await Em Blocos Catch E Finally",
-                "10. Inicializadores de Índices"
+                "10. Inicializadores de Índice",
+                "11. Métodos De Extensão Para Inicializadores De Coleção"
             };
 
             Console.WriteLine("ÍNDICE DE PROGRAMAS");
@@ -68,6 +69,9 @@ namespace csharp_atualizacoes
                         break;
                     case 10:
                         new CSharp6.R10.Programa().Main();
+                        break;
+                    case 11:
+                        new CSharp6.R11.Programa().Main();
                         break;
                     default:
                         break;
