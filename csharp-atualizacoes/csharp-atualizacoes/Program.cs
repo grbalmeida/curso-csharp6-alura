@@ -14,7 +14,8 @@ namespace csharp_atualizacoes
                 "5. Operadores Null-Condicionais",
                 "6. Interpolação De Cadeia De Caracteres",
                 "7. Expressões nameOf",
-                "8. Filtros de Exceção"
+                "8. Filtros de Exceção",
+                "9. Await Em Blocos Catch E Finally"
             };
 
             Console.WriteLine("ÍNDICE DE PROGRAMAS");
@@ -60,6 +61,9 @@ namespace csharp_atualizacoes
                         break;
                     case 8:
                         new CSharp6.R08.Programa().Main();
+                        break;
+                    case 9:
+                        new CSharp6.R09.Programa().Main();
                         break;
                     default:
                         break;

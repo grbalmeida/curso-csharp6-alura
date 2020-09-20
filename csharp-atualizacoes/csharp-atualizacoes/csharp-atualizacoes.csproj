@@ -50,6 +50,7 @@
     <Compile Include="Aula3\R06.InterpolacaoDeCadeiaDeCaracteres\csharp-6.cs" />
     <Compile Include="Aula3\R07.ExpressoesNameOf\csharp-6.cs" />
     <Compile Include="Aula4\R08.FiltrosDeExcecao\csharp-6.cs" />
+    <Compile Include="Aula4\R09.AwaitEmBlocosCatchEFinally\csharp-6.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
