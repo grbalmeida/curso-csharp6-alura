@@ -13,7 +13,8 @@ namespace csharp_atualizacoes
                 "4. Using Static",
                 "5. Operadores Null-Condicionais",
                 "6. Interpolação De Cadeia De Caracteres",
-                "7. Expressões nameOf"
+                "7. Expressões nameOf",
+                "8. Filtros de Exceção"
             };
 
             Console.WriteLine("ÍNDICE DE PROGRAMAS");
@@ -56,6 +57,9 @@ namespace csharp_atualizacoes
                         break;
                     case 7:
                         new CSharp6.R07.Programa().Main();
+                        break;
+                    case 8:
+                        new CSharp6.R08.Programa().Main();
                         break;
                     default:
                         break;
